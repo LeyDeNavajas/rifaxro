@@ -18,7 +18,8 @@
 
 body {
   background-color: rgba(255, 192, 216, 255);
-  font-family: "Bebas Neue", cursive;
+  font-family: "Titillium Web", sans-serif;
+  font-size: x-large;
 }
 h3 {
   margin: 0px;
@@ -37,19 +38,23 @@ h1 {
   background-color: rgba(255, 185, 34, 255);
   width: 40%;
   line-height: 40px;
+  border-radius: 5px;
 }
 .titulo {
   background-color: rgba(255, 192, 216, 255);
-  margin: 25px;
+  margin: 25px auto;
   border-left: 5px solid black;
   border-bottom: 5px solid black;
   border-right: 1px solid black;
   border-top: 1px solid black;
+  border-radius: 5px;
+  width: 80%;
+  line-height: 40px;
 }
-p {
-  font-size: x-large;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+.imagenes {
+  position: relative;
 }
+
 a {
   font-size: x-large;
   color: white;
@@ -71,6 +76,7 @@ header {
   margin-bottom: 20px;
   border-radius: 5px;
   padding: 0 16px;
+  font-family: "Roboto", sans-serif;
 }
 .text-left {
   text-align: left;
@@ -103,9 +109,8 @@ header {
 }
 .star3 {
   width: 20%;
-  left: 30%;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  left: 60%;
+  position: absolute;
 }
 
 .contacto {
@@ -128,6 +133,10 @@ header {
   border-top: 1px solid palevioletred;
   margin-bottom: 5px;
   border-radius: 5px;
+}
+.datos {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
 }
 
 #background-wrap {
@@ -294,7 +303,7 @@ header {
     text-align: justify;
     padding: 0 20px;
     font-size: medium;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Titillium Web", sans-serif;
   }
   h1 {
     font-size: x-large;
@@ -306,5 +315,9 @@ header {
 
   header {
     font-size: 60px;
+  }
+  .star3 {
+    left: 0;
+    right: 20px;
   }
 }
